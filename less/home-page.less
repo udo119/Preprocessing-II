@@ -5,8 +5,6 @@
     display: flex;
     justify-content: space-between;
 
-   
-    
     .text-content {
       width: 48%;
       padding-right: 1%;
@@ -16,8 +14,6 @@
     .img-content {
       width: 48%;
       padding-left: 1%;
-      width: 100%;
-
       img {
         border-radius: 10px;
       }
@@ -58,13 +54,13 @@
     border-top: 2px dashed #C0C0C0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-  
+
 
     .destination {
-      width: 75%;
+      max-width: 25%;
       margin-bottom: 30px;
-      button {
+
+    button {
         background-color: #0b9c7f;
         border: none;
         color: white;
@@ -74,7 +70,7 @@
         display: inline-block;
         font-size: 16px;
         border-radius: 15px;
-      
+
       }//this ends button
     }//this ends destination
   }//this ends content-pick
@@ -115,12 +111,13 @@
     padding-right: 1%;
   }
   .img-content{
+    width: 100%;
     order: 2;
   }
   .content-pick{
     flex-direction: column;
   }
-      
+
   .destination button {
     background-color: #0b9c7f;
     border: none;
@@ -132,5 +129,5 @@
     font-size: 16px;
     border-radius: 15px;
       }
-  
+
 }//this ends the media query
