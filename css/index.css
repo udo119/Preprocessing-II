@@ -221,7 +221,6 @@ header a {
   width: 100%;
 }
 .home .content-section .img-content {
-  width: 48%;
   padding-left: 1%;
 }
 .home .content-section .img-content img {
@@ -302,21 +301,27 @@ header a {
     padding-right: 1%;
   }
   .img-content {
-    width: 100;
+    width: 100%;
     order: 2;
+    margin-left: 5%;
   }
   .content-pick {
     flex-direction: column;
   }
+  .home .content-pick .destination {
+    max-width: 85%;
+    margin-bottom: 30px;
+    margin-left: 10%;
+  }
   .destination button {
+    width: 100%;
     background-color: #0b9c7f;
     border: none;
     color: white;
-    padding: 10px 120px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.6rem;
     border-radius: 15px;
   }
 }
